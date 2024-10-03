@@ -13,7 +13,6 @@ function generatePasswordPrompt(): string {
 
     let characterPool = lowercaseChars;
 
-    // Use options based on user input
     switch (useUppercase) {
         case true:
             characterPool += uppercaseChars;
@@ -32,7 +31,6 @@ function generatePasswordPrompt(): string {
             break;
     }
 
-    // Generate the password
     let password = "";
     for (let i = 0; i < length; i++) {
         const randomIndex = Math.floor(Math.random() * characterPool.length);
@@ -42,6 +40,5 @@ function generatePasswordPrompt(): string {
     return password;
 }
 
-// Example usage
 const newPassword = generatePasswordPrompt();
 alert("Generated Password: " + newPassword);
