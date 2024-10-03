@@ -2,7 +2,7 @@ function generatePassword(): string {
     // the password length
     const length = parseInt(prompt("Enter password length:") || "12");
 
-    // if enter character types
+    // ask if you want to include character types in password
     const useUppercase = confirm("Include uppercase letters?");
     const useNumbers = confirm("Include numbers?");
     const useSymbols = confirm("Include symbols?");
