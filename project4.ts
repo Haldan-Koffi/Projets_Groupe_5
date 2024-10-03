@@ -18,7 +18,7 @@ function createMatrix(rows: number, cols: number): number[][] {
     return matrix;
 }
 
-// this code only for check the matrix
+// this code only for check the matrix its not included 
 let rows = Number(prompt("Enter number of rows for the matrix: ")); 
 let cols = Number(prompt("Enter number of columns for the matrix: ")); 
 
