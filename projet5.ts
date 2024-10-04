@@ -2,7 +2,7 @@
 
 enum case_speciale { // définition d'un type énuméré pour les cases avec les effets
   normal,
-  gagne_un_tour_supplémentaire,
+  gagne_un_tour_supplementaire,
   perd_un_tour,
   avance_de_quatre,
   recule_de_un
@@ -25,7 +25,7 @@ class plateau_de_jeu { //définition de la classe pour le plateau de jeu
   // Intialisation des cases spéciales pour les appeller à l'intérieur de la classe plateau de jeu
   private initialise_cases_speciales() {
     const cases_speciales = [ // Place les cases spéciales dans sur le plateau de jeu
-      {index: 4, type: case_speciale.gagne_un_tour_supplémentaire},
+      {index: 4, type: case_speciale.gagne_un_tour_supplementaire},
       {index: 8, type: case_speciale.perd_un_tour},
       {index: 12, type: case_speciale.avance_de_quatre},
       {index: 16, type: case_speciale.recule_de_un}
@@ -76,7 +76,7 @@ class jeu {
   private appliquer_effet_case(joueur: joueur) { // application de l'effet de la case sur lequel le joueur se trouve
     const case_actuelle = this.plateau.cases[joueur.position];
     switch (case_actuelle) {
-      case case_speciale.gagne_un_tour_supplémentaire:
+      case case_speciale.gagne_un_tour_supplementaire:
         console.log(`${joueur.nom} gagne un tour supplémentaire !`);
         this.tour_actuel--;
         break;
