@@ -1,3 +1,4 @@
+//generatepassword
 function generatePassword(): string {
     // Enter Length
     const length = parseInt(prompt("Enter password length:") || "12");
