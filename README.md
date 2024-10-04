@@ -1,5 +1,11 @@
 # Groupe5
 
+Projet 1
+
+
+Projet 2
+
+
 Projet 3
 
 Ce projet simule une fille d'attente où des clients prioritaires ou non sont gérés
@@ -26,6 +32,9 @@ file_client.supprimer_client(2); pour supprimer le client ayant le ticket numér
 
 
 
+Projet 4
+
+
 Projet 5
 
 Ce projet simule un jeu de l'oie dans lequel :
@@ -48,3 +57,6 @@ Ce projet simule un jeu de l'oie dans lequel :
 Utilisation
 
 L'utilisateur défini le nombre de case du jeu en l'écrivant lui même dans le programme. Il défini aussi les différents joueurs en écrivant leur nom.
+
+
+Projet 6
