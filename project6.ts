@@ -42,7 +42,7 @@ function guessLetter(letter: string) {
     // display the updated word
     displayWord();
 
-    // Check if the player has won or lost
+    // if the player has won or lost
     if (hiddenWord.join("") === word) {
         alert("You won! The word was: " + word);
     } else if (guessesLeft === 0) {
@@ -53,15 +53,15 @@ function guessLetter(letter: string) {
 // start of the game
 function startGame() {
     alert("Welcome to Hangman!");
-    displayWord(); // Show the hidden word with blanks
+    displayWord(); 
 
     // asking the user
     while (guessesLeft > 0 && hiddenWord.join("") !== word) {
-        let guess = prompt("Guess a letter: "); // Ask the player to input a letter
+        let guess = prompt("Guess a letter: "); 
         if (guess && guess.length === 1) {
             guessLetter(guess.toLowerCase());
         } else {
-            alert("Please enter a single letter."); // If input is not valid
+            alert("Please enter a single letter."); 
         }
     }
 }
