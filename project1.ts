@@ -1,5 +1,5 @@
 function generatePassword(): string {
-    // the password length
+    // Enter Length
     const length = parseInt(prompt("Enter password length:") || "12");
 
     // ask if you want to include character types in password
@@ -29,7 +29,7 @@ function generatePassword(): string {
             break;
     }
 
-    // if they enter more than length
+    // if they enter more than default length 
     if (uppercaseCount + numbersCount + symbolsCount > length) {
         alert("The total number of specified characters exceeds the password length. Please try again.");
         return ""; 
@@ -53,7 +53,7 @@ function generatePassword(): string {
         password += symbolChars[Math.floor(Math.random() * symbolChars.length)];
     }
 
-    // remaining fill lowercase characters
+    // remaining character its will automaticaly fill lowercase characters
     for (let i = password.length; i < length; i++) {
         password += lowercaseChars[Math.floor(Math.random() * lowercaseChars.length)];
     }
