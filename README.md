@@ -1,13 +1,14 @@
 Ce dépôt contient différents projets écrits en TypeScript.
 
-Projet 1 : Générateur de mots de passe sécurisé
-Projet 2 : Analyseur de texte
-Projet 3 : Simulateur d'une file d'attente
-Projet 4 : Calculateur de matrices
-Projet 5 : Moteur de jeu de plateau
-Projet 6 : Jeu du pendu
-
 Groupe 5 : Edwin, Haldan, Rania
+
+- Projet 1 : Générateur de mots de passe sécurisé
+- Projet 2 : Analyseur de texte
+- Projet 3 : Simulateur d'une file d'attente
+- Projet 4 : Calculateur de matrices
+- Projet 5 : Moteur de jeu de plateau
+- Projet 6 : Jeu du pendu
+
 
 PROJET 1
 
