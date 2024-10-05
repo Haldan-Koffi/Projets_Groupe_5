@@ -22,7 +22,7 @@ class plateau_de_jeu { //définition de la classe pour le plateau de jeu
     this.initialise_cases_speciales();
   }
 
-  // Intialisation des cases spéciales pour les appeller à l'intérieur de la classe plateau de jeu
+  // Initialisation des cases spéciales pour les appeler à l'intérieur de la classe plateau de jeu
   private initialise_cases_speciales() {
     const cases_speciales = [ // Place les cases spéciales dans sur le plateau de jeu
       {index: 4, type: case_speciale.gagne_un_tour_supplementaire},
