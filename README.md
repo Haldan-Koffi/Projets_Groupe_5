@@ -1,6 +1,6 @@
-Ce dépôt contient différents projets écrits en TypeScript.
-
 Groupe 5 : Edwin, Haldan, Rania
+
+Ce dépôt contient différents projets écrits en TypeScript.
 
 - Projet 1 : Générateur de mots de passe sécurisé
 - Projet 2 : Analyseur de texte
