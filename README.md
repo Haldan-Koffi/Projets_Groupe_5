@@ -2,7 +2,7 @@ Groupe 5 : Edwin, Haldan, Rania
 
 Ce dépôt contient différents projets écrits en TypeScript.
 
-- Projet 1 : Générateur de mots de passe sécurisé
+- Projet 1 : Générateur de mots de passe sécurisés
 - Projet 2 : Analyseur de texte
 - Projet 3 : Simulateur d'une file d'attente
 - Projet 4 : Calculateur de matrices
@@ -43,11 +43,11 @@ Fonctionnement
 
 PROJET 2
 
-Le programme pour ce projet analyse un texte donné et affiche des statistiques notamment sur le nombre de mots, de caractère, de phrase.
+Le programme pour ce projet analyse un texte donné et affiche des statistiques notamment sur le nombre de mots, de caractères, de phrases.
 
 Fonctionnalités
 
-Ce programme permet de faire différente analyse à savoir :
+Ce programme permet de faire différentes analyses à savoir :
 
 - Compter le nombre de mots
 - Compter le nombre de phrases
