@@ -1,6 +1,7 @@
-Projet 1
 
-Dans ce projet, il est question d'un programme qui génère aléatoirement des mots de passe.
+PROJET 1
+
+Il est question d'un programme qui génère aléatoirement des mots de passe dans ce projet.
 Chaque mot de passe généré est unique en fonction des choix de l'utilisateur via différentes fonctionnalités.
 
 Fonctionnalités
